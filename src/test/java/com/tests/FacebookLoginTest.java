@@ -13,8 +13,6 @@ public class FacebookLoginTest {
 	
 	public static WebDriver driver;
 	
-		
-	
 	@Test(priority=1)
 	@BeforeTest
 	public void LaunchBrowser()
@@ -47,7 +45,7 @@ public class FacebookLoginTest {
 		//driver.close();
 		Thread.sleep(2000);
 		driver.quit();
-		
+		System.out.println("Closing Browser");
 		
 	}
 	}
